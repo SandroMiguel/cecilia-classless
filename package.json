@@ -1,0 +1,38 @@
+{
+  "name": "cecilia-classless",
+  "version": "0.0.1",
+  "description": "Classless stylesheet for HTML",
+  "license": "MIT",
+  "author": {
+    "name": "Sandro Miguel Marques",
+    "email": "sandromiguel@sandromiguel.com",
+    "url": "http://sandromiguel.com"
+  },
+  "keywords": [
+    "css",
+    "stylesheet",
+    "classless"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SandroMiguel/cecilia-classless.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SandroMiguel/cecilia-classless/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "disableScopeLowerCase": true
+    }
+  }
+}
