@@ -16,6 +16,15 @@ yarn-error.log*
 ## Ignore NPM configuration file
 .npmrc
 
+## Yarn - Not using Zero-Installs
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 ## Ignore Miscellaneous
 **/.misc
 
