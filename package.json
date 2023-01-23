@@ -1,39 +1,54 @@
 {
-  "name": "cecilia-classless",
-  "version": "0.0.1",
-  "description": "Classless stylesheet for HTML",
-  "license": "MIT",
-  "author": {
-    "name": "Sandro Miguel Marques",
-    "email": "sandromiguel@sandromiguel.com",
-    "url": "http://sandromiguel.com"
-  },
-  "keywords": [
-    "css",
-    "stylesheet",
-    "classless"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SandroMiguel/cecilia-classless.git"
-  },
-  "bugs": {
-    "url": "https://github.com/SandroMiguel/cecilia-classless/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.3"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog",
-      "disableScopeLowerCase": true
+    "name": "cecilia-classless",
+    "version": "0.0.1",
+    "description": "Classless stylesheet for HTML",
+    "license": "MIT",
+    "author": {
+        "name": "Sandro Miguel Marques",
+        "email": "sandromiguel@sandromiguel.com",
+        "url": "http://sandromiguel.com"
+    },
+    "keywords": [
+        "css",
+        "stylesheet",
+        "classless"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SandroMiguel/cecilia-classless.git"
+    },
+    "bugs": {
+        "url": "https://github.com/SandroMiguel/cecilia-classless/issues"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write './**/*.{js,jsx,json}'"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.4.2",
+        "@commitlint/config-conventional": "^17.4.2",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^8.32.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-cecilia": "^2.9.1",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-jsdoc": "^39.6.7",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.32.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-unicorn": "^45.0.2",
+        "husky": "^8.0.3",
+        "prettier": "^2.8.3"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog",
+            "disableScopeLowerCase": true
+        }
     }
-  }
 }
