@@ -23,7 +23,10 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky install",
+        "build": "npx sass ./src/cecilia-classless.scss:./dist/cecilia-classless.scss ./src/docs/sample.scss:./docs/assets/sample.css && npx sass --style=compressed ./src/cecilia-classless.scss:./dist/cecilia-classless.min.css && npx sass --style=compressed ./src/cecilia-classless.scss:./docs/assets/cecilia-classless.min.css",
+        "watch": "npx sass --watch ./src/cecilia-classless.scss:./dist/cecilia-classless.scss ./src/sample.scss:./dist/sample.css",
         "lint": "eslint .",
+        "lint:scss": "stylelint \"./src/**/*.scss\"",
         "lint:fix": "eslint . --fix",
         "format": "prettier --write './**/*.{js,jsx,json}'"
     },
@@ -43,6 +46,7 @@
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-unicorn": "^45.0.2",
         "husky": "^8.0.3",
+        "normalize.css": "^8.0.1",
         "prettier": "^2.8.3"
     },
     "config": {
