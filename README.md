@@ -1,7 +1,5 @@
 ![Cecilia Classless](docs/assets/logo-cecilia-classless.svg)
 
-Classless stylesheet for HTML
-
 # Welcome to Cecilia Classless
 
 ![npm](https://img.shields.io/npm/v/cecilia-classless?color=%230374B4)
@@ -12,4 +10,4 @@ Classless stylesheet for HTML
 
 Cecilia Classless is the stylesheet that I use for prototyping.
 
-[View demo](https://sandromiguel.github.io/cecilia-classless)
+[View demo](https://sandromiguel.github.io/cecilia-classless){:target="\_blank"}
