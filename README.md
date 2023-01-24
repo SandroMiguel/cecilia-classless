@@ -10,4 +10,4 @@
 
 Cecilia Classless is the stylesheet that I use for prototyping.
 
-[View demo](https://sandromiguel.github.io/cecilia-classless){target="\_blank"}
+<a href="https://sandromiguel.github.io/cecilia-classless" target="_blank">View demo</a>
