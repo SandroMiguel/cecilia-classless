@@ -458,9 +458,9 @@ mark {
 /* ========================================================================== *
    Base style > Lists
  * ========================================================================== */
+ol,
 ul {
-  padding-left: 0;
-  list-style: none;
+  padding-left: 2rem;
 }
 
 blockquote {
@@ -605,4 +605,4 @@ input[type=range] {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-/*# sourceMappingURL=cecilia-classless.scss.map */
+/*# sourceMappingURL=cecilia-classless.css.map */
