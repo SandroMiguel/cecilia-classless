@@ -8,13 +8,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: google-github-actions/release-please-action@v3
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GH_PAT }}
               with:
                   release-type: node
                   package-name: release-please-action
-permissions:
-    id-token: write
-    contents: read
-    issues: write
-    pull-requests: write
