@@ -358,7 +358,7 @@ template {
  * @package Cecilia Classless
  * @author Sandro Miguel Marques - http://sandromiguel.com
  * @license MIT Open Source
- * @version v0.0.1 (2023/01/24)
+ * @version v0.1.0 (2023/01/25)
  * @link https://github.com/SandroMiguel/cecilia-classless
  */
 /* ========================================================================== *
@@ -463,6 +463,9 @@ ul {
   padding-left: 2rem;
 }
 
+/* ========================================================================== *
+   Base style > Blockquote
+ * ========================================================================== */
 blockquote {
   font-size: 1.9rem;
   quotes: "“" "”" "‘" "’";
