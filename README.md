@@ -10,7 +10,14 @@
 
 Cecilia Classless is a CSS framework equipped with a set of CSS rules that style DOM elements based on their HTML tag names. This implies that you don't need to append classes to HTML elements for them to be styled by the framework.
 
-Cecilia Classless is excellent for website prototyping due to its ease of use and customization. It allows for the swift and easy creation of a fundamental layout for your website.
+## Features
+
+Cecilia Classless offers the following key features:
+
+-   **Element-Centric Styling:** Styles elements based on their HTML tag names, eliminating the need for additional classes.
+-   **Simplified Prototyping:** Perfect for rapidly creating a basic layout for website prototypes.
+-   **Customizable Defaults:** Easily adjust default values by overriding CSS variables for tailored designs.
+-   **Lightweight:** Keeps your projects lightweight by providing only essential and classless styles.
 
 ## Getting Started
 
@@ -50,3 +57,25 @@ Here's an example of how you can replace the default values:
     /* Add more custom variable overrides here */
 }
 ```
+
+## Credits
+
+-   [Normalize.css](https://necolas.github.io/normalize.css/): Browser style reset used by Cecilia Classless.
+
+## Contributing
+
+Want to contribute? All contributions are welcome. Please read the [contributing guide](CONTRIBUTING.md).
+
+## Questions
+
+If you have questions tweet me at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](../../issues/new).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+**~ sharing is caring ~**
