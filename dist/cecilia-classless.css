@@ -315,7 +315,7 @@ template {
  * @package Cecilia CSS
  * @author Sandro Miguel Marques - http://sandromiguel.com
  * @license MIT Open Source
- * @version v1.0.0 (2023/01/11)
+ * @version v1.0.1 (2023-10-31)
  * @link https://github.com/SandroMiguel/cecilia-css
  */
 :root {
@@ -380,6 +380,7 @@ body {
   font-size: var(--cecilia-font-size-base);
   font-weight: var(--cecilia-font-weight-base);
   line-height: var(--cecilia-line-height-base);
+  margin: 8px;
 }
 
 pre,
