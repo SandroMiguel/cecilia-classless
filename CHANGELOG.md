@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/SandroMiguel/cecilia-classless/compare/v0.1.0...v0.2.0) (2023-10-31)
+
+
+### Features
+
+* add body margin ([b95aca4](https://github.com/SandroMiguel/cecilia-classless/commit/b95aca42b54546b75cbc4556f9bf3abf346d3cc3))
+
 ## [0.1.0](https://github.com/SandroMiguel/cecilia-classless/compare/v0.0.1...v0.1.0) (2023-01-25)
 
 
