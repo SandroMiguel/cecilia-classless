@@ -36,7 +36,7 @@
     font-size: variables.$font-size-base;
     font-weight: variables.$font-weight-base;
     line-height: variables.$line-height-base;
-    margin: 8px;
+    margin: 2rem;
 }
 
 pre,
@@ -106,7 +106,7 @@ small {
 
 mark {
     padding: 0.2em;
-    background-color: #f8fc94;
+    background-color: variables.$mark-background-color;
 }
 
 /* ========================================================================== *
@@ -232,7 +232,7 @@ input::-ms-expand {
 
 input:focus {
     color: #495057;
-    background-color: #fff;
+    background-color: variables.$input-focus-background-color;
     border-color: #bbb;
     outline: 0;
     box-shadow: 0 0 0 0.1rem rgb(0 0 0 / 10%);
@@ -245,7 +245,7 @@ input::placeholder {
 
 input:disabled,
 input[readonly] {
-    background-color: #ddd;
+    background-color: variables.$input-disabled-background-color;
     opacity: 1;
 }
 
