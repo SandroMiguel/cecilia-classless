@@ -24,6 +24,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky install",
         "build": "npx sass ./src/cecilia-classless.scss:./dist/cecilia-classless.css ./src/docs/sample.scss:./docs/assets/sample.css && npx sass --style=compressed ./src/cecilia-classless.scss:./dist/cecilia-classless.min.css && npx sass --style=compressed ./src/cecilia-classless.scss:./docs/assets/cecilia-classless.min.css",
+        "build:dark-theme": "npx sass ./src/theme-dark.scss:./dist/cecilia-classless-theme-dark.css",
         "watch": "npx sass --watch ./src/cecilia-classless.scss:./dist/cecilia-classless.css & npx sass --watch --style=compressed ./src/cecilia-classless.scss:./docs/assets/cecilia-classless.min.css",
         "lint": "eslint .",
         "lint:scss": "stylelint \"./src/**/*.scss\"",

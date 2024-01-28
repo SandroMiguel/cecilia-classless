@@ -606,4 +606,12 @@ input[type=range] {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-/*# sourceMappingURL=cecilia-classless.css.map */
+:root {
+  --color-base: #ffffff; /* Base text color */
+  --background-color: #1f1f1f; /* Dark background color */
+  --primary-color: #007bff; /* Primary color */
+  --secondary-color: #6c757d; /* Secondary color */
+  /* Add more custom variable overrides for your dark theme */
+}
+
+/*# sourceMappingURL=cecilia-classless-theme-dark.css.map */

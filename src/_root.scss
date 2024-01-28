@@ -19,7 +19,7 @@
 
     // Typography
     --cecilia-font-family-base: var(--font-family-base, ubuntu, roboto, arial, sans-serif); // Defines the base font family.
-    --cecilia-font-family-code: var(--cecilia-font-family-code, monospace, consolas, "Liberation Mono", "Courier New", courier); // Defines the code font family.
+    --cecilia-font-family-code: var(--font-family-code, monospace, consolas, "Liberation Mono", "Courier New", courier); // Defines the code font family.
     --cecilia-font-size-base: var(--font-size-base, 1rem); // Sets the base font size for the document.
     --cecilia-font-weight-base: var(--font-weight-base, 400); // Sets the base font weight for the document.
     --cecilia-line-height-base: var(--cecilia-line-height-base, 1.5); // Sets the base line height for the document.
@@ -35,4 +35,7 @@
     // Colors
     --cecilia-background-color: var(--background-color, #fff); // Defines the default background color.
     --cecilia-color-base: var(--color-base, #1f1f1f); // Defines the base text color.
+    --cecilia-mark-background-color: var(--mark-background-color, #f8fc94); // Defines the background color for marked text.
+    --cecilia-input-focus-background-color: var(--input-focus-background-color, #fff); // Defines the background color for the focused input.
+    --cecilia-input-disabled-background-color: var(--input-disabled-background-color, #ddd); // Defines the background color for the disabled input.
 }

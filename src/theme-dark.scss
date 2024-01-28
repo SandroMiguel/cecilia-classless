@@ -1,0 +1,14 @@
+// theme-dark.scss
+
+// Import Cecilia-Classless
+@import 'cecilia-classless.scss';
+
+// Dark theme variables
+:root {
+    --color-base: #ffffff; /* Base text color */
+    --background-color: #1f1f1f; /* Dark background color */
+    --primary-color: #007bff; /* Primary color */
+    --secondary-color: #6c757d; /* Secondary color */
+    /* Add more custom variable overrides for your dark theme */
+}
+

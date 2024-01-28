@@ -58,6 +58,29 @@ Here's an example of how you can replace the default values:
 }
 ```
 
+| Variable                            | Description                                     | Default Value                                                          |
+| ----------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
+| `--cecilia-sm-container-max-width`  | Maximum width for small containers.             | `540px`                                                                |
+| `--cecilia-md-container-max-width`  | Maximum width for medium containers.            | `720px`                                                                |
+| `--cecilia-lg-container-max-width`  | Maximum width for large containers.             | `960px`                                                                |
+| `--cecilia-xl-container-max-width`  | Maximum width for extra large containers.       | `1140px`                                                               |
+| `--cecilia-xxl-container-max-width` | Maximum width for extra extra large containers. | `1400px`                                                               |
+| `--cecilia-font-family-base`        | Base font family.                               | `'ubuntu', 'roboto', 'arial', sans-serif'`                             |
+| `--cecilia-font-family-code`        | Font family for code elements.                  | `'monospace', 'consolas', "Liberation Mono", "Courier New", 'courier'` |
+| `--cecilia-font-size-base`          | Base font size for the document.                | `1rem`                                                                 |
+| `--cecilia-font-weight-base`        | Base font weight for the document.              | `400`                                                                  |
+| `--cecilia-line-height-base`        | Base line height for the document.              | `1.5`                                                                  |
+| `--cecilia-h1-font-size`            | Font size for h1 headings.                      | `calc(var(--cecilia-font-size-base) * 2.5)`                            |
+| `--cecilia-h2-font-size`            | Font size for h2 headings.                      | `calc(var(--cecilia-font-size-base) * 2)`                              |
+| `--cecilia-h3-font-size`            | Font size for h3 headings.                      | `calc(var(--cecilia-font-size-base) * 1.75)`                           |
+| `--cecilia-h4-font-size`            | Font size for h4 headings.                      | `calc(var(--cecilia-font-size-base) * 1.5)`                            |
+| `--cecilia-h5-font-size`            | Font size for h5 headings.                      | `calc(var(--cecilia-font-size-base) * 1.25)`                           |
+| `--cecilia-h6-font-size`            | Font size for h6 headings.                      | `calc(var(--cecilia-font-size-base) * 1.1)`                            |
+| `--cecilia-headings-margin-bottom`  | Margin bottom for headings.                     | `0.6rem`                                                               |
+| `--cecilia-headings-line-height`    | Line height for headings.                       | `1.2`                                                                  |
+| `--cecilia-background-color`        | Default background color.                       | `#fff`                                                                 |
+| `--cecilia-color-base`              | Base text color.                                | `#1f1f1f`                                                              |
+
 ## Credits
 
 -   [Normalize.css](https://necolas.github.io/normalize.css/): Browser style reset used by Cecilia Classless.
