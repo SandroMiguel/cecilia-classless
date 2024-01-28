@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/SandroMiguel/cecilia-classless/compare/v0.2.0...v0.3.0) (2024-01-28)
+
+
+### Features
+
+* add dark theme ([03bf2ae](https://github.com/SandroMiguel/cecilia-classless/commit/03bf2aea9c04e5dd9ddb443236b439956bf8bd4e))
+
 ## [0.2.0](https://github.com/SandroMiguel/cecilia-classless/compare/v0.1.0...v0.2.0) (2023-10-31)
 
 
